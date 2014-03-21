@@ -21,9 +21,83 @@
               android:layout_height="fill_parent"
               android:padding="10dip">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+    <TextView
+            android:id="@+id/pref_hours"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hour"/>
+    
+    <TextView
+            android:id="@+id/pref_minutes"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Minute" />
+    
+    <TextView
+            android:id="@+id/pref_second"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Second" />
+
+	</LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
     <com.michaelnovakjr.numberpicker.NumberPicker
-            android:id="@+id/pref_num_picker"
-            android:layout_width="fill_parent"
+            android:id="@+id/pref_num_picker_hour"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    
+    <com.michaelnovakjr.numberpicker.NumberPicker
+            android:id="@+id/pref_num_picker_minute"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent" />
+    
+    <com.michaelnovakjr.numberpicker.NumberPicker
+            android:id="@+id/pref_num_picker_second"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="fill_parent" />
 
+	</LinearLayout>
+	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+        <TextView
+            android:id="@+id/pref_total_second_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Was set to:" />
+        
+        <TextView
+            android:id="@+id/pref_total_second"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Seconds" />
+        
+    </LinearLayout>
+        
 </LinearLayout>
