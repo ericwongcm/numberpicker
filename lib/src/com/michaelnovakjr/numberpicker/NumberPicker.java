@@ -264,8 +264,8 @@ public class NumberPicker extends LinearLayout implements OnClickListener,
     }
 
     private void setCurrentInternal(int current) {
-        if (mStart > current) throw new IllegalArgumentException("Current value cannot be less than the range start.");
-        if (mEnd < current) throw new IllegalArgumentException("Current value cannot be greater than the range end.");
+//        if (mStart > current) throw new IllegalArgumentException("Current value cannot be less than the range start.");
+//        if (mEnd < current) throw new IllegalArgumentException("Current value cannot be greater than the range end.");
         mCurrent = current;
     }
 
