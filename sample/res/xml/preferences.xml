@@ -21,10 +21,9 @@
 
     <com.michaelnovakjr.numberpicker.NumberPickerPreference
             android:key="demo.preference"
-            android:title="Sample Number Picker"
-            android:summary="Number picker as a preference"
-            picker:defaultValue="15"
-            picker:startRange="-50"
-            picker:endRange="50" />
+            android:title="Sample Time Picker"
+            android:summary="Pick time in seconds as a preference"
+            picker:defaultValue="5"
+            picker:startRange="0"/>
 
 </PreferenceScreen>
