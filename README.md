@@ -2,8 +2,9 @@
 
 [![endorse](http://api.coderwall.com/mrn/endorsecount.png)](http://coderwall.com/mrn)
 
-This project is an Android library project for a NumberPicker widget. This library has been tested on Android 2.1 through Android 4.0. The repository contains three parts
-described below. All source code is licensed under the Apache 2.0 License.
+This project is a modified fork from https://github.com/michaelnovakjr/numberpicker, which is an Android library project for a NumberPicker widget. This library has been tested on Android 2.1 through Android 4.0. The repository contains three parts described below. All source code is licensed under the Apache 2.0 License.
+
+The purpose of the modification is to allow user to select hour/minute/seconds from the preference dialog, which is then converted and saved in seconds.
 
 ### Project overview
 
@@ -17,6 +18,10 @@ Patches for the project are welcome from anyone. The recommended practice for su
 your changes. It is recommended that you write tests for the functionality or bug you are fixing with your patch. 
 
 ### Changelog
+
+2014-03-22 Eric Wong
+
+* Added hour/minute/seconds to preference dialog.
 
 2012-03-06 Luca Santarelli @hrkdroid
 
